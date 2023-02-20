@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Fonts -->
+    <link
+      href="https://fonts.cdnfonts.com/css/sf-pro-display"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <!-- Fonts -->
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+
+    />
+    <!-- Font Awesome -->
+
+    <!-- Main Css Link -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Main Css Link -->
+    <title>My Quotes</title>
+  </head>
+  <body>
+    <!-- Loading -->
+    <div class="loader">
+      <div class="spinner">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+    <!-- Loading -->
+
+    <!-- Header -->
+    <header>
+      <h1>Motivation</h1>
+
+      <div class="choosen-quotes">
+     <h2>My Favorite</h2>
+      <i id="saved-icon" class="fa-solid fa-heart"><p></p></i>
+      <i id="close-icon" class="fa-solid fa-x"></i>
+      </div>
+
+      <div class="panel">
+        <ul id="saved-quotes"></ul>
+      </div>
+    </header>
+    <!-- Header -->
+
+    <!-- Container -->
+    <div class="container">
+      <div class="quotes-modal">
+
+        <div class="counter">
+        <p class="info"></p>
+        </div>
+
+        <div class="quote-details">
+        <h3 class="quote"></h3>
+        <p class="author"</p>
+        </div>
+        
+      </div>
+        <div class="btns">
+        <i id="save-continue-icon" class="fa-solid fa-download"></i>
+        <i id="save-random-icon" class="fa-solid fa-download"></i>
+        <p class="saved-status">save!</p>
+      </div>
+
+      <div class="buttons">
+        <button class="continue-btn btn">Continue Quote</button>
+        <button class="random-btn btn">Random Quote</button>
+      </div>
+    </div>
+    <!-- Container -->
+
+    <!-- Main JS Link -->
+    <script src="./js/bundle.js" type="module" defer></script>
+    <!-- Main JS Link -->
+  </body>
+</html>
